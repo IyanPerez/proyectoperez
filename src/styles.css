@@ -1,0 +1,16 @@
+#banner {
+    float: right;
+}
+
+footer {
+
+    text-align: center;
+     border: 1px; 
+    background-color: azure;
+    padding-bottom: 0;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 5px;
+}
