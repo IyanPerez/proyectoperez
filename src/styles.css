@@ -1,66 +1,12 @@
-@import url("src\reset.css");
+@import url("./reset.css");
+@import url("./header.css");
 
 body {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  
+  width: 100%;  
 }
-
-#body {
-
-  width: 100%;
-}
-
-#banner {
-    float: left;
-    margin: 25px 0px 25px 25px;
-}
-
-footer {
-
-    text-align: center;
-     border: 1px; 
-    background-color: #e3e3e3;
-    padding-bottom: 0;
-    display: inline-block;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding-top: 5px;
-  font-size: 18px;
-}
-
-#nombres-footer, #copy, #slogan-footer {
-  
-  padding: 6px 0px 6px;
-}
-
-
-header {
-  background: #e3e3e3;
-  padding-top: 0;
-  top:0%;
-  overflow: auto;
-}
-
-h1 {
-
-  font-size: 50px;
-  color: #f4f4f4;
-  text-shadow: 1px 1px 1px #919191,
-               1px 2px 1px #919191,
-               1px 3px 1px #919191,
-               1px 4px 1px #919191,
-               1px 5px 1px #919191,
-               1px 6px 1px #919191,
-               1px 7px 1px #919191,
-               1px 8px 1px #919191,
-               1px 9px 1px #919191,
-               1px 10px 1px #919191,
-               1px 20px 40px rgba(0, 0, 0, 0.3);
-}
-
 
 #logo {
   
@@ -71,18 +17,26 @@ h1 {
 
 }
 
-h1 {
-  text-align: center;
-  font-size: 3em;
-  font-weight: bold;
-  padding-top: 20px;
+#banner {
+    float: left;
+    margin: 25px 0px 25px 25px;
 }
 
+footer {
 
+  text-align: center;
+   border: 1px; 
+  background-color: #e3e3e3;
+  padding-bottom: 0;
+  display: inline-block;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 5px;
+font-size: 18px;
+}
 
+#nombres-footer, #copy, #slogan-footer {
 
-#nombres-header {
-  font-size: 20px;
-  text-align: left;
-  margin: 50px 0px 10px 25px;
+padding: 6px 0px 6px;
 }
