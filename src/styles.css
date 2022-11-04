@@ -1,8 +1,13 @@
 body {
-  height: 100vh;
+  height: 100%;
   padding: 0px;
   margin: 0px;
   
+}
+
+#body {
+
+  width: 100%;
 }
 
 #banner {
@@ -13,13 +18,19 @@ footer {
 
     text-align: center;
      border: 1px; 
-    background-color: azure;
+    background-color: #e3e3e3;
     padding-bottom: 0;
-    position: fixed;
+    display: inline-block;
   left: 0;
   bottom: 0;
   width: 100%;
   padding-top: 5px;
+  font-size: 18px;
+}
+
+#nombres-footer, #copy, #slogan-footer {
+  
+  padding: 6px 0px 6px;
 }
 
 
