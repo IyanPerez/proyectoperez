@@ -1,3 +1,10 @@
+body {
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
 #banner {
     float: right;
 }
@@ -13,4 +20,43 @@ footer {
   bottom: 0;
   width: 100%;
   padding-top: 5px;
+}
+
+
+header {
+  background: #e3e3e3;
+  border: 100px;
+  padding-top: 0;
+  top:0%;
+}
+
+.title{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+  color: #f4f4f4;
+  text-shadow: 1px 1px 1px #919191,
+               1px 2px 1px #919191,
+               1px 3px 1px #919191,
+               1px 4px 1px #919191,
+               1px 5px 1px #919191,
+               1px 6px 1px #919191,
+               1px 7px 1px #919191,
+               1px 8px 1px #919191,
+               1px 9px 1px #919191,
+               1px 10px 1px #919191,
+               1px 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+
+#logo {
+  
+  height: 100px;
+  width: 100px;
+  margin-top: 1px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 60pc;
 }
