@@ -13,7 +13,9 @@ header {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  color: #aaa2a2;
+  color: #4c5152;
+  border: 3px outset rgba(0, 157, 255, 0.135);
+  border-radius: 10px;
 }
 
 #logo-header {
@@ -21,9 +23,13 @@ header {
     width: 100px;
   }
 
+#logo {
+    border: 1px outset rgba(0, 157, 255, 0.354);
+    margin-top: 8px;
+}
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: bold;
   color: #f4f4f4;
     text-shadow: 1px 1px 1px #919191,
@@ -37,5 +43,11 @@ h1 {
                  1px 9px 1px #919191,
                  1px 10px 1px #919191,
                  1px 20px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  hr {
+    display: block;
+    border-style: inset;
+    border-width: 1px;
   }
     
