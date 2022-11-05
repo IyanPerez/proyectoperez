@@ -1,17 +1,32 @@
 #avatares {
-    margin: 10% 20% 10% 10%;
     float: right;
-  }
+    margin: 10% 20% 10% 10%;
+}
   
   #avatar-andres {
-   padding: 20px;
-   border-radius:100px;
-  }
+    border-radius: 50%;
+    padding: 8px;
+    background: linear-gradient(135deg, red, blue 50%, transparent 50%);
+    background-size: 250%;
+    background-position: 100% 100%;
+    transition: background 0.5s;
+}
+#avatar-andres:hover{
+    background-position: 0% 0%;
+}
   
   #avatar-iyan {
-    padding: 20px;
-    border-radius:100px;
+      border-radius: 50%;
+      padding: 8px;
+      background: linear-gradient(135deg, red, blue 50%, transparent 50%);
+      background-size: 250%;
+      background-position: 100% 100%;
+      transition: background 0.5s;
   }
+  #avatar-iyan:hover{
+      background-position: 0% 0%;
+  }
+  
   /**
   #avatares > img {
   
