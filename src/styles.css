@@ -1,6 +1,6 @@
 @import url("./reset.css");
 @import url("./header.css");
-
+@import url("./avatars.css");
 body {
   height: 100%;
   padding: 0px;
@@ -8,53 +8,25 @@ body {
   width: 100%;  
 }
 
-#logo {
-  
-  height: 100px;
-  width: 100px;
-  float: right;
-  margin: 0px 20px 10px 0px;
-
-}
-
 #banner {
-    float: left;
-    margin: 25px 0px 25px 25px;
+  overflow: hidden;
+  float: left;
+  margin: 25px 0px 25px 25px;
 }
-
-
-
-#avatares {
-
-  float: right;
-  margin: 10% 10% 0px 0px;
-}
-
-#avatar-andres {
-  padding-right: 5%;
-}
-
-#avatares > img {
-
-  
-}
-
 
 footer {
-
   text-align: center;
-   border: 1px; 
+    border: 1px; 
   background-color: #e3e3e3;
   padding-bottom: 0;
   display: inline-block;
-left: 0;
-bottom: 0;
-width: 100%;
-padding-top: 5px;
-font-size: 18px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 5px;
+  font-size: 18px;
 }
 
 #nombres-footer, #copy, #slogan-footer {
-
-padding: 6px 0px 6px;
+  padding: 6px 0px 6px;
 }
