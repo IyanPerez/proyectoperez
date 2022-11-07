@@ -1,37 +1,6 @@
 @import url("./reset.css");
-
 @import url("./header.css");
-
 @import url("./avatars.css");
-
-
-body {
-  height: 100%;
-  padding: 0px;
-  margin: 0px;
-  width: 100%;  
-  background-color: rgb(255, 255, 255);
-}
-
-#banner {
-  float: left;
-
-}
-
-footer {
-  text-align: center;
-    border: 1px; 
-  background-color: #e3e3e3;
-  padding-bottom: 0;
-  display: inline-block;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding-top: 5px;
-  font-size: 18px;
-  position: fixed;
-}
-
-#nombres-footer, #copy, #slogan-footer {
-  padding: 6px 0px 6px;
-}
+@import url("./body.css");
+@import url("./banner.css");
+@import url("./footer.css");

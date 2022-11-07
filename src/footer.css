@@ -1,0 +1,18 @@
+footer {
+    text-align: center;
+      border: 1px; 
+    background-color: #e3e3e3;
+    padding-bottom: 0;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+    font-size: 18px;
+    position: fixed;
+  }
+  
+  #nombres-footer, #copy, #slogan-footer {
+    padding: 6px 0px 6px;
+  }
+  

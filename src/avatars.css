@@ -1,7 +1,10 @@
 #avatares {
-    float: right;
-    margin: 2% 20% 2% 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 400px;
 }
+
   
   #avatar-andres {
     border-radius: 50%;
@@ -26,10 +29,3 @@
   #avatar-iyan:hover{
       background-position: 0% 0%;
   }
-  
-  /**
-  #avatares > img {
-  
-  }
-  */
-  
