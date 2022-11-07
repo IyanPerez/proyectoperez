@@ -9,6 +9,7 @@ body {
   .body-content{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
   }
 
   #herramientas{
