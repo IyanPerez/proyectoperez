@@ -1,6 +1,10 @@
 @import url("./reset.css");
+
 @import url("./header.css");
+
 @import url("./avatars.css");
+
+
 body {
   height: 100%;
   padding: 0px;
@@ -25,6 +29,7 @@ footer {
   width: 100%;
   padding-top: 5px;
   font-size: 18px;
+  position: fixed;
 }
 
 #nombres-footer, #copy, #slogan-footer {
