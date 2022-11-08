@@ -52,3 +52,7 @@ h1 {
                  1px 20px 40px rgba(0, 0, 0, 0.3);
   }
 
+  #nombres-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
