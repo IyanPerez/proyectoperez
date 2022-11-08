@@ -16,10 +16,12 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 400px;
-    padding-right: 10vw;
+    height: 320px;
+    padding-right: 18vw;
+    
+
   }
 
   figure{
-    padding: 0px;
+    padding: 20px;
   }
