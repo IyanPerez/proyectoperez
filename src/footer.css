@@ -15,4 +15,15 @@ footer {
   #nombres-footer, #copy, #slogan-footer {
     padding: 6px 0px 6px;
   }
+
+  #slogan-footer {
+    font-style: italic;
+  }
+
+  #copy {
+    font-weight: 700;
+  }
   
+  #nombres-footer{
+    font-style: italic;
+  }
