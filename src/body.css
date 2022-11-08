@@ -17,9 +17,23 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     height: 320px;
-    padding-right: 18vw;
-    padding-top: 2%;
+    padding-right: 180px;
+    padding-top: 20px;
+  }
 
+  #css-logo{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  #figma-logo{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  #git-logo{
+    padding-top: 20px;
+    padding-bottom: 30px;
   }
 
   figure{
