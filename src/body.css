@@ -17,4 +17,9 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     height: 400px;
+    padding-right: 10vw;
+  }
+
+  figure{
+    padding: 0px;
   }
