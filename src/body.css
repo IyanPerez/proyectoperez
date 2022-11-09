@@ -39,3 +39,14 @@ body {
   figure{
     padding: 20px;
   }
+
+  figcaption {
+    background-color: #c39ca1;
+    border: 2px;
+    border-radius: 7px;
+    width: auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-size: 19px;
+}
